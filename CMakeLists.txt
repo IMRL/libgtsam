@@ -284,6 +284,7 @@ endif()
 if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
   if (NOT CMAKE_CXX_COMPILER_VERSION VERSION_LESS 4.8)
     add_definitions(-Wno-unused-local-typedefs)
+    add_definitions(-Wunused-but-set-variable)
   endif()
 endif()
 
