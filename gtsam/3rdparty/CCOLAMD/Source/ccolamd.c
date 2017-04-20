@@ -1592,7 +1592,7 @@ PUBLIC Int CCOLAMD_2	    /* returns TRUE if successful, FALSE otherwise */
     Int *dead_cols ;
     Int set1 ;
     Int set2 ;
-    Int cs ;
+    //Int cs ;
 
     int ok ;
 
